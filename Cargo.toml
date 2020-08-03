@@ -1,0 +1,28 @@
+[package]
+name = "wannaplay"
+version = "0.1.0"
+authors = ["Samuel Batissou <samuelbatissou@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "client"
+path = "src/client/main.rs"
+
+[[bin]]
+name = "server"
+path = "src/server/main.rs"
+
+[dependencies]
+walkdir = "2.3.1"
+rand = "0.7.3"
+magic-crypt = "2.1.10"
+tokio = { version = "0.2.22", features = ["tcp", "io-util", "macros"] }
+serde = { version = "1.0.114", features = ["derive"] }
+mac_address = "1.0.3"
+futures = "0.3.5"
+bincode = "1.3.1"
+sled = "0.34.2"
+log = "0.4.11"
+simple_logger = "1.6.0"
+

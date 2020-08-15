@@ -4,7 +4,7 @@ A toy ransomware, for academic purposes.
 
 The client
 ==
-###to encrypt
+### to encrypt
 client path
 ### To decrypt
 client -d path key

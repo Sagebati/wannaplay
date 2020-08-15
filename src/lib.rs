@@ -3,7 +3,7 @@ use serde::{Serialize, Deserialize};
 pub mod api;
 
 // Client vars
-pub static SUFFIX: &str = "_encrypted";
+pub static SUFFIX: &str = ".wannaplay";
 
 // Server Vars
 pub const PORT: u16 = 9999;

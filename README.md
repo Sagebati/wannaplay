@@ -14,3 +14,6 @@ The server
 needs port 9999
 ./server to execute
 
+Caution
+===
+Beware using it, in your personal computer can cause damage.
